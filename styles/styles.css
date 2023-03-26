@@ -71,12 +71,11 @@ main {
 }
 .titles {
     width: 100%;
-    background: linear-gradient(0deg, #015d49, #000000, #000000); */
+    background: linear-gradient(0deg, #015d49, #000000, #000000);
     display: flex;
     font-size: 30px;
     justify-content: center;
     padding: 10px;
-    text-align: center;
     margin-top: 10px;
     border-radius: 10px;
     border: 2px solid blueviolet;
