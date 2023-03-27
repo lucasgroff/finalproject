@@ -17,9 +17,9 @@ llamadaAApi
           alt="imagen de personaje"
         />
         <h2>${characters[i].name}</h2>
-        <p>Gender: ${characters[i].gender}</p>
+        <div class="info"><p>Gender: ${characters[i].gender}</p>
         <p>Species: ${characters[i].species}</p>
-        <p>Status: ${characters[i].status}</p>
+        <p>Status: ${characters[i].status}</p></div>
         <p>Origin: ${characters[i].origin.name}</p>
       </div>
       `;
