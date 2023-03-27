@@ -143,9 +143,8 @@ main p {
     display: flex;
     justify-content:space-between;
     align-items: center;
-    -webkit-box-shadow: 2px -4px 16px 0px rgba(193, 111, 129, 0.81);
-    -moz-box-shadow: 2px -4px 14px 0px rgba(193, 111, 129, 0.81);
-    box-shadow: 2px -4px 14px 0px rgba(193, 111, 129, 0.81);
+    border-radius: 20px;
+    border: 7px dotted rgba(193, 111, 129, 0.81);
   }
   .data-left p {
     font-size: 23px;
@@ -164,84 +163,97 @@ main p {
   }
   .hbo-button, .github, .gmail {
     background: linear-gradient(180deg, #f68fa9, #7c278d, #20a7c9);
+    text-align: center;
     border: 2px solid rosybrown;
     border-radius: 5px;
     font-size: 30px;
   }
 
   @media (max-width: 880px){
+    body {
+      width: 880px;
+    }
+    
     header {
       width: 100%;
       flex-direction: column;
       position: relative;
-      gap: 15px;
+      gap: 10px;
     }
     header a {
-      font-size: 35px;
-      gap: 20px;
-      margin:10px;
+      font-size: 30px;
+      margin: 60px;
     }
    .rym {
     width: 30%;
    }
    .logo {
     width: 100%;
-   }    
+   }
+   
   .titles h2 {
-   font-size: 30px;
+   font-size: 30px;;
   }
   main p {
     font-size: 27px;
+    margin: 20px;
   }
   .data-left p {
     font-size: 20px;
   }
+  
 }
 
   @media (max-width: 480px){
+    body {
+      width: 480px;
+    }
+   
     header {
       width: 100%;
       flex-direction: column;
       position: relative;
-      gap: 15px;
+      gap: 10px;
     }
     header a{
-      font-size: 30px;
-      gap: 20px;
-      margin:10px;
+      font-size: 20px;
+      margin:20px;
     }
 
    .rym {
     width: 30%;
-   }
+  }
    .logo {
     width: 100%;
    }
-      
+   
    .titles h2 {
-    font-size: 30px;
-   }
+    font-size: 20px;
+  }
   
   main p {
-    font-size: 24px;
+    font-size: 15px;
+    margin: 20px;
   }
   .data-left p {
-    font-size: 18px;
+    font-size: 15px;
   }
    
    .item-grid {
-    width: 220px;
-    height: 220px;
-    font-size: 21px;
+    width: 190px;
+    height: 190px;
+    font-size: 13px;
    }
    
    .item-grid:hover {
     width: 200px;
     height: 450px;
    }
-   .data-left p {
-    font-size: 18px;
-   }
+   
+   .hbo-button, .github, .gmail {
+    font-size: 17px;
+  }
+  
   }
   
     
